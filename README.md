@@ -1,2 +1,6 @@
-# TCC
+# Identificação de Coordenadas para Manipulação de Braço Robótico por Visão Computacional
  Trabalho de conclusão do curso de bacharelado em Engenharia Mecânica
+
+Manipuladores robóticos são utilizados nas mais diversas áreas, desde a industria automotiva até a medicina. O avanço tecnológico vem permitindo novas maneiras para programa-los, porém estas podem requerer treinamentos específicos aos usuários, possuirem alto custo ou as vezes não estarem disponíveis para determinados modelos, limitando seu uso. Este trabalho tem como objetivo desenvolver um código que ajuda o usuário a obter as posições para as quais o manipular deve mover-se, simplificando o processo de programação. O sistema faz uso de visão computacional através de duas webcams de baixo custo, um computador para o processamento das imagens e a biblioteca gratuita de código aberto OpenCV para visão computacional. Ele utiliza as câmeras para identificar marcadores específicos e calcular suas coordenadas no espaço. A validação do código é realizada através da verificação as coordenadas calculadas pelo sistema de diversos pontos de teste em comparação com suas posições no mundo real e do cálculo do desvio padrão das medições. Foi feita, ainda, uma avaliação da influência que os padrões de calibração e outros fatores têm na calibração das câmeras, que pode afetar na precisão do sistema.
+
+Palavras-chave: Manipulador robótico. Visão computacional. Calibração de câmeras. Obtenção de coordenadas. Programação. OpenCV.
